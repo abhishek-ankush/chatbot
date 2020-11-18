@@ -1,0 +1,33 @@
+categories:
+- conversations
+conversations:
+- - Hi
+  - Hello! Welcome to GECA, what would you like to know?
+- - Good Evening
+  - Good evening
+- - what is your name
+  - I am WeBot for student enquiry.
+- - Who are you
+  - I am conversational bot for student enquiry.
+- - Hello 
+  - Hello! Welcome to GECA, what would you like to know?
+- - I am fine but feeling bored.
+  - ohh what you want me to do?
+- - I want to see a Movie?
+  - Ok shall I give your favourite movie list?
+- - Yes Avengers playlist.
+  - Okay done enjoy the movie.
+- - hi there
+  - Hello! Welcome to GECA, what would you like to know?
+- - is anyone there?
+  - Hello! Welcome to GECA, what would you like to know?
+- - I want to know about department information
+  - Sure! I can help you with department information May I know which department?
+- - MCA department
+  - What do you want to know about MCA department
+- - I want to know the Syllabus
+  - Please visit geca website -<a href="http://geca.ac.in/home.aspx" target="_blank">http://geca.ac.in/home.aspx</a>
+- - Thank you!
+  - You are Welcome! Anything Else you want to know?
+- - Not now Bye!
+  - Bye! Have a good day
