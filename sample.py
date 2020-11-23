@@ -4,7 +4,7 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.trainers import ListTrainer
 
 
-
+# 
 app = Flask(__name__) 
 app.static_folder = 'static'
 english_bot = ChatBot(
