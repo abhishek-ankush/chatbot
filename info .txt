@@ -1,0 +1,14 @@
+
+flask framework for whole project.
+    We used main three routes 1)index: To send context to html
+    2)get_bot_response for getting input from bot.We write function in javascript.
+    3)action for inserting data of query form in database.
+Mongodb database for storing information.
+    We creted database named myquerydb with collect email_id 
+    which will store the query and email.
+For getting response and training our chatbot we used chtterbot library and also 
+created yaml file for getting accrate resposes.
+For UI we used html,css and functionality we use javascript,Jquery.
+
+
+

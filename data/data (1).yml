@@ -1,0 +1,87 @@
+categories:
+- conversations
+conversations:
+- - Hi
+  - Hello! Welcome to GECA, what would you like to know?
+- - Good Evening
+  - Good evening
+- - what is your name
+  - I am WeBot for student enquiry.
+- - Who are you
+  - I am conversational bot for student enquiry.
+- - Hello 
+  - Hello! Welcome to GECA, what would you like to know?
+- - hi there
+  - Hello! Welcome to GECA, what would you like to know?
+- - is anyone there?
+  - Hello! Welcome to GECA, what would you like to know?
+- - How many departments are present in GECA?
+  - There are 10 departments in GECA. You can find this information at <a href="http://geca.ac.in/home.aspx" target="_blank"> http://geca.ac.in/home.aspx for more information.</a>'
+- - how many departments are present in geca?
+  - There are 10 departments in GECA. You can find this information at <a href="http://geca.ac.in/home.aspx" target="_blank"> http://geca.ac.in/home.aspx for more information.</a>'
+- - Number of departments in college?
+  - There are 10 departments in GECA. You can find this information at <a href="http://geca.ac.in/home.aspx" target="_blank"> http://geca.ac.in/home.aspx for more information.</a>'
+- - number of departments in geca?
+  - There are 10 departments in GECA. You can find this information at <a href="http://geca.ac.in/home.aspx" target="_blank"> http://geca.ac.in/home.aspx for more information.</a>'
+- - No. of departments in geca?
+  - There are 10 departments in GECA. You can find this information at <a href="http://geca.ac.in/home.aspx" target="_blank"> http://geca.ac.in/home.aspx for more information.</a>'
+- - Number of departments in GECA?
+  - There are 10 departments in GECA. You can find this information at <a href="http://geca.ac.in/home.aspx" target="_blank"> http://geca.ac.in/home.aspx for more information.</a>'
+- - I want to know about department information
+  - Sure! I can help you with department information May I know which department?
+- - MCA department
+  - What do you want to know about MCA department?
+- - I want to know about MCA department?
+  - Please visit MCA website -<a href="https://gecamca.in/about-us.html" target="_blank">https://gecamca.in/about-us.html</a>
+- - What courses are included in MCA?
+  - MCA department has Following Courses - MCA -PG Duration-3 years, Full time course Intake - 60 students
+- - Which courses are included in MCA?
+  - MCA department has Following Courses - MCA -PG Duration-3 years, Full time course Intake - 60 students
+- - Which course is included in MCA?
+  - MCA department has Following Courses - MCA -PG Duration-3 years, Full time course Intake - 60 students
+- - Courses are included in MCA?
+  - MCA department has Following Courses - MCA -PG Duration-3 years, Full time course Intake - 60 students
+- - MCA Courses
+  - MCA department has Following Courses -url(/images/CourseMCA.JPG)
+- - When was MCA department started?
+  - MCA department started in year 1992.
+- - Staff MCA department
+  - Staff and Faculty Members include - 1. Dr. Vivek Kshirsagar, 2. Dr. Praveen Shetiye, 3.	Dr. Gulve Avinash Khushal, 4.Prof. Pardeshi Suraj Rameshsingh, 5.Dr. Sapkal Shubhangi Deorao, 6. 	Prof. Kailash Kharat, 7.	Prof. Khushboo Jain Mehta, 8.	Dr. Vaishali D. Bhagile, 9.	Prof. Shahana Sayeda, 10.Prof. Rupali Awati, 11.	Prof. Swati D. Harkant, 12.Prof. Ashwini D. Dixit, 13.Prof. Sujata Rathod, 14.	Prof. Mayuri Babrekar, 15.Prof. Nikhil Wagh
+- - MCA department Staff
+  - Staff and Faculty Members include - 1. Dr. Vivek Kshirsagar, 2. Dr. Praveen Shetiye, 3.	Dr. Gulve Avinash Khushal, 4.Prof. Pardeshi Suraj Rameshsingh, 5.Dr. Sapkal Shubhangi Deorao, 6. 	Prof. Kailash Kharat, 7.	Prof. Khushboo Jain Mehta, 8.	Dr. Vaishali D. Bhagile, 9.	Prof. Shahana Sayeda, 10.Prof. Rupali Awati, 11.	Prof. Swati D. Harkant, 12.Prof. Ashwini D. Dixit, 13.Prof. Sujata Rathod, 14.	Prof. Mayuri Babrekar, 15.Prof. Nikhil Wagh
+- - List of Staff of MCA department
+  - Staff and Faculty Members include - 1. Dr. Vivek Kshirsagar, 2. Dr. Praveen Shetiye, 3.	Dr. Gulve Avinash Khushal, 4.Prof. Pardeshi Suraj Rameshsingh, 5.Dr. Sapkal Shubhangi Deorao, 6. 	Prof. Kailash Kharat, 7.	Prof. Khushboo Jain Mehta, 8.	Dr. Vaishali D. Bhagile, 9.	Prof. Shahana Sayeda, 10.Prof. Rupali Awati, 11.	Prof. Swati D. Harkant, 12.Prof. Ashwini D. Dixit, 13.Prof. Sujata Rathod, 14.	Prof. Mayuri Babrekar, 15.Prof. Nikhil Wagh
+- - List the Staff of MCA department
+  - Staff and Faculty Members include - 1. Dr. Vivek Kshirsagar, 2. Dr. Praveen Shetiye, 3.	Dr. Gulve Avinash Khushal, 4.Prof. Pardeshi Suraj Rameshsingh, 5.Dr. Sapkal Shubhangi Deorao, 6. 	Prof. Kailash Kharat, 7.	Prof. Khushboo Jain Mehta, 8.	Dr. Vaishali D. Bhagile, 9.	Prof. Shahana Sayeda, 10.Prof. Rupali Awati, 11.	Prof. Swati D. Harkant, 12.Prof. Ashwini D. Dixit, 13.Prof. Sujata Rathod, 14.	Prof. Mayuri Babrekar, 15.Prof. Nikhil Wagh
+- - Staff and Faculty in MCA
+  - Staff and Faculty Members include - url(/images/FacultyMCA.PNG)
+- - MCA department labs 
+  - Laboratory include - url(/images/LaboratoryMCA.PNG)
+- - MCA labs
+  - Laboratory include - url(/images/LaboratoryMCA.PNG)
+- - Labs in MCA
+  - Laboratory include - url(/images/LaboratoryMCA.PNG)
+- - Student committee MCA
+  - MCASA committee <a href="https://gecamca.in/abt.html " target="_blank">https://gecamca.in/abt.html </a> 
+- - MCASA committee
+  - MCASA committee <a href="https://gecamca.in/abt.html " target="_blank">https://gecamca.in/abt.html </a> 
+- - MCASA 
+  - MCASA committee <a href="https://gecamca.in/abt.html " target="_blank">https://gecamca.in/abt.html </a> 
+- - mcasa
+  - MCASA committee <a href="https://gecamca.in/abt.html " target="_blank">https://gecamca.in/abt.html </a> 
+- - Contact details MCA department
+  - Contact details MCA department  <a href="https://gecamca.in/contact.html " target="_blank">https://gecamca.in/contact.html </a> 
+- - How to contact MCA department?
+  - Contact details MCA department  <a href="https://gecamca.in/contact.html " target="_blank">https://gecamca.in/contact.html </a> 
+- - Contact MCA dept
+  - Contact details MCA department  <a href="https://gecamca.in/contact.html " target="_blank">https://gecamca.in/contact.html </a> 
+- - Latest Notification?
+  - For all latest notifications of GECA visit - <a href="http://geca.ac.in/geca-downloads.aspx" target="_blank">http://geca.ac.in/geca-downloads.aspx</a>
+- - Thank you!
+  - You are Welcome! Anything Else you want to know?
+- - Not now Bye!
+  - Bye! Have a good day
+- - Vivek Kshirsagar
+  - <a href="https://gecamca.in/pdf/resume/VPK.pdf"target="_blank">https://gecamca.in/pdf/resume/VPK.pdf</a>
+- - MCA Courses
+  - MCA department has Following Courses -<a href="/images/CourseMCA.JPG" target="_blank">Courses</a>
