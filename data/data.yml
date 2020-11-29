@@ -3,6 +3,10 @@ categories:
 conversations:
 - - Hi
   - Hello! Welcome to GECA, what would you like to know?
+- - hi bot
+  - Hello! Welcome to GECA, what would you like to know?
+- - hi Webot
+  - Hello! Welcome to GECA, what would you like to know?
 - - Good Evening
   - Good evening.
 - - Hola
@@ -104,6 +108,11 @@ conversations:
     <a href="https://gecamca.in/pdf/CBCSFY.pdf" target="_blank">   2.MCA FY CBCS</a>    <a href="https://gecamca.in/pdf/NonCBCSSY.pdf" target="_blank">3.MCA SY Non-CBCS</a>    <a href="https://gecamca.in/pdf/CBCSSY.pdf" target="_blank">4.MCA SY CBCS</a>    
     <a href="https://gecamca.in/pdf/NonCBCSTY.pdf" target="_blank">5.MCA TY Non-CBCS</a>
     <a href="https://gecamca.in/pdf/CBCSTY.pdff" target="_blank">6.MCA TY CBCS</a>
+- - what is MCA syllabus
+  - <a href="https://gecamca.in/pdf/NonCBCSFY.pdf" target="_blank">1.MCA FY Non-CBCS</a>    
+    <a href="https://gecamca.in/pdf/CBCSFY.pdf" target="_blank">   2.MCA FY CBCS</a>    <a href="https://gecamca.in/pdf/NonCBCSSY.pdf" target="_blank">3.MCA SY Non-CBCS</a>    <a href="https://gecamca.in/pdf/CBCSSY.pdf" target="_blank">4.MCA SY CBCS</a>    
+    <a href="https://gecamca.in/pdf/NonCBCSTY.pdf" target="_blank">5.MCA TY Non-CBCS</a>
+    <a href="https://gecamca.in/pdf/CBCSTY.pdff" target="_blank">6.MCA TY CBCS</a> 
 - - MCA department Syllabus  
   - <a href="https://gecamca.in/pdf/NonCBCSFY.pdf" target="_blank">1.MCA FY Non-CBCS</a>    
     <a href="https://gecamca.in/pdf/CBCSFY.pdf" target="_blank">   2.MCA FY CBCS</a>    <a href="https://gecamca.in/pdf/NonCBCSSY.pdf" target="_blank">3.MCA SY Non-CBCS</a>    <a href="https://gecamca.in/pdf/CBCSSY.pdf" target="_blank">4.MCA SY CBCS</a>    
@@ -125,3 +134,7 @@ conversations:
   - MCA department has 4 Labs -1. Software Development Lab (SDL) 2. Database Management Lab (DML) 3. Web Programing Lab (WPL) 4. Programming Labrotary (PL)
 - - Labs in MCA
   - MCA department has 4 Labs -1. Software Development Lab (SDL) 2. Database Management Lab (DML) 3. Web Programing Lab (WPL) 4. Programming Labrotary (PL)
+- - ok
+  - Thank you!
+- - Hmm
+  - Hmm

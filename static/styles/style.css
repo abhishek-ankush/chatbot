@@ -23,20 +23,18 @@
     justify-content: normal;
     align-items: center;
     height: 100vh;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: var(--body-bg);
     font-family: Helvetica, sans-serif;
   }
-
-  
   .msger {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
     width: 95%;
     max-width: 100%;
-    margin: 25px 10px;
+    margin: 25px 13px;
     height: calc(100% - 40px);
     border: var(--border);
     border-radius: 5px;
@@ -78,6 +76,16 @@
   .msg-img {
     width: 50px;
     height: 50px;
+    margin-right: 10px;
+    background: #ddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .msg-logo {
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     background: #ddd;
     background-repeat: no-repeat;
@@ -161,18 +169,19 @@
     cursor: pointer;
     opacity: 0.8;
     position: fixed;
-    bottom: 23px;
-    right: 28px;
-    width: 70px;
-    border-radius: 100%
+    bottom: 90px;
+    right: 50px;
+    left: 14px;
+    width: 62px;
+    border-radius: 100px; 
   }
   .chat-popup {
     display: none;
     position: fixed;
     bottom: 0;
-    right: 15px;
+    right: auto;
     border: 3px solid #f1f1f1;
-    z-index: 9;
+    z-index: 9; 
   }
   .form-container {
     max-width: 300px;
@@ -182,12 +191,12 @@
   /* Full-width textarea */
   .form-container textarea {
     width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
+    padding: 2px;
+    margin: 3px 0px 6px 0px;
     border: none;
     background: #f1f1f1;
     resize: none;
-    min-height: 200px;
+    min-height: 100px;
   }
   
  

@@ -24,8 +24,8 @@ english_bot = ChatBot(
         
         {
             'import_path': 'chatterbot.logic.BestMatch',
-            'default_response': 'We are unable to process your query for more information on GECA please vist: <a href="http://geca.ac.in/home.aspx" target="_blank"> http://geca.ac.in/home.aspx for more information.</a>',
-            'maximum_similarity_threshold': 0.50
+            'default_response': 'We are unable to process your query for more information on GECA please visit: <a href="http://geca.ac.in/home.aspx" target="_blank"> http://geca.ac.in/home.aspx for more information.</a>',
+            'maximum_similarity_threshold': 0.90
         }
         
         # 'chatterbot.logic.TimeLogicAdapter'
