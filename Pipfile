@@ -7,6 +7,7 @@ verify_ssl = true
 
 [packages]
 gunicorn = "*"
+pymongo = "*"
 
 [requires]
 python_version = "3.7"

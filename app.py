@@ -10,9 +10,9 @@ from bson import ObjectId # For ObjectId to work
 from pymongo import MongoClient
 import os
 
-client = MongoClient("mongodb://127.0.0.1:27017") #host uri
-db = client.myquerydb #Select the database
-email_id = db.mail #Select the collection name
+# client = MongoClient("mongodb://127.0.0.1:27017") #host uri
+# db = client.myquerydb #Select the database
+# email_id = db.mail #Select the collection name
 
 app = Flask(__name__) 
 app.static_folder = 'static'
@@ -46,13 +46,13 @@ def get_bot_response():
      userText = request.args.get("msg") #get data from input,we write js  to index.html
      return str(english_bot.get_response(userText))
 
-@app.route("/action", methods=['POST'])
-def action ():
-    #Adding a Task
-    query=request.values.get("query")
-    email=request.values.get("email")
-    email_id.insert({ "query":query, "email":email})
-    return redirect("/")
+# @app.route("/action", methods=['POST'])
+# def action ():
+#     #Adding a Task
+#     query=request.values.get("query")
+#     email=request.values.get("email")
+#     email_id.insert({ "query":query, "email":email})
+#     return redirect("/")
 
 if __name__ == "__main__":
      app.run(debug = True)
