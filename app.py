@@ -2,12 +2,14 @@ from flask import Flask,render_template,request,redirect
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.trainers import ListTrainer
+
+from flask_mysqldb import MySQL
 # import datetime
 # now = datetime.datetime.now()
 
 #
-from bson import ObjectId # For ObjectId to work
-from pymongo import MongoClient
+# from bson import ObjectId # For ObjectId to work
+# from pymongo import MongoClient
 import os
 
 # client = MongoClient("mongodb://127.0.0.1:27017") #host uri
@@ -15,6 +17,13 @@ import os
 # email_id = db.mail #Select the collection name
 
 app = Flask(__name__) 
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = 'MyDB'
+
+mysql = MySQL(app)
+
 app.static_folder = 'static'
 english_bot = ChatBot(
     'Example Bot',
@@ -51,10 +60,15 @@ def action ():
     #Adding a Task
     query=request.values.get("query")
     email=request.values.get("email")
-    email_id.insert({ "query":query, "email":email})
-    return redirect("/")
-
+    cur = mysql.connection.cursor()
+    cur.execute("INSERT INTO MyUsers(query, email) VALUES (%s, %s)", (query, email))
+    # email_id.insert({ "query":query, "email":email})
+    # return redirect("/")
+    mysql.connection.commit()
+    cur.close()
+    # return 'success'
+    return redirect('/')
 if __name__ == "__main__":
-     app.run(debug = False,host='0.0.0.0')
+     app.run(debug = True)
 
 
