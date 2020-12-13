@@ -19,9 +19,15 @@
   <section class="msger">
     <header class="msger-header">
       <div class="msger-header-title">
-        <i class="fas fa-user-graduate"></i><b> WeBot:A Smart Enquiry Bot </b><i class="fas fa-user-graduate"> </i>
+        <i class="fas fa-user-graduate"></i><b> WeBot:A Smart Enquiry Bot </b><i class="fas fa-user-graduate"></i> 
+          
       </div>
+      
     </header>
+    
+      <b><a href="{{ url_for('admin') }}">Admin</a></b>
+    
+    
 
     <main class="msger-chat">
       <div class="msg left-msg">
@@ -36,7 +42,13 @@
           <div class="msg-text">
             Hi, welcome to WeBot! Go ahead and send me a message. 😄
           </div>
-          
+          <!-- {% for item in data %}
+          <tr>
+          <td>{{item[0]}}</td>
+          <td>{{item[1]}}</td>
+          ...
+          </tr>
+          {% endfor %} -->
         </div>
       </div>
     </main>

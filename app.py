@@ -48,7 +48,11 @@ trainer = ChatterBotCorpusTrainer(english_bot)
 trainer.train("data/data.yml")
 @app.route("/")
 def index():
-     return render_template("index.html") #to send context to html
+    # cur = mysql.connection.cursor()
+    # cur.execute("SELECT * FROM MyUsers ")
+    # data = cur.fetchall()
+    # render_template('template.html', data=data)
+    return render_template("index.html") #to send context to html
 
 @app.route("/get")
 def get_bot_response():
@@ -68,7 +72,22 @@ def action ():
     cur.close()
     # return 'success'
     return redirect('/')
+
+@app.route('/admin',methods=['GET', 'POST'])  
+def admin():  
+    error = None
+    if request.method == 'POST':
+        if request.form['username'] != 'admin' or request.form['password'] != 'admin':
+            error = 'Invalid Credentials. Please try again.'
+        else:
+            cur = mysql.connection.cursor()
+            cur.execute("SELECT * FROM MyUsers ")
+            data = cur.fetchall()
+            return render_template('db.html', data=data)
+            # return redirect(url_for('home'))
+    return render_template('admin.html', error=error)
+
 if __name__ == "__main__":
-     app.run(debug = True)
+     app.run(debug = True,host= '0.0.0.0',port=5000)
 
 
