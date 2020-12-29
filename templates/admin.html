@@ -12,6 +12,37 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+  body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background: url("https://res.cloudinary.com/practicaldev/image/fetch/s--u12JF9Xa--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/uskd4x557wno7irs1q71.png") 50% fixed;
+  background-size: cover;
+}
+a:link {
+  color: rgb(12, 12, 12);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(5, 5, 5);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(10, 10, 10);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(5, 5, 5);
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
 </head>
 
 <body>
@@ -24,7 +55,7 @@
     </head>
     <body>
       <div class="container">
-        <h1>Please login</h1>
+        <b><h1>Please login</h1></b>
         <br>
         <form action="" method="post">
           <input type="text" placeholder="Username" name="username" value="{{
@@ -36,7 +67,7 @@
         {% if error %}
           <p class="error"><strong>Error:</strong> {{ error }}
         {% endif %}
-        <a href="/">Go to WeBot</a>
+        <h5><b><a href="/">Go to WeBot</a></b></h5>
       </div>
     </body>
   </html>
